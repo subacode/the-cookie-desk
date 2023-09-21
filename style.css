@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Croissant+One&family=Exo+2:wght@100&family=Kanit:wght@100&family=Mooli&family=Nunito:wght@200&family=Quicksand:wght@300&display=swap');
+
+
+.circular{
+    position: relative;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Caveat', cursive;
+        font-family: 'Croissant One', cursive;
+        font-family: 'Exo 2', sans-serif;
+        font-family: 'Kanit', sans-serif;
+        font-family: 'Mooli', sans-serif;
+        font-family: 'Nunito', sans-serif;
+        font-family: 'Quicksand', sans-serif;
+}
+
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 90px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a{
+    display: inline-block;
+    color: rgb(126, 67, 16);
+    font-weight: 300;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.content{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content .textBox{
+    position: relative;
+    max-width: 400px;
+}
+
+.content .textBox h2{
+    color: rgb(151, 107, 74);
+    font-size: 2.5em;
+    line-height: 1.4em;
+    font-weight: 500;
+}
+
+.content .textBox h2 span{
+    color: rgb(126, 67, 16);
+    font-size: 1.2em;
+    font-weight: 900;
+}
+
+.content .textBox p{
+    color: rgb(151, 107, 74);;
+
+}
+
+.content .textBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(171, 132, 103);
+    color: rgb(255, 255, 255);
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+.content .imgBox{
+    width: 600px;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 50px;
+}
+
+.imgBox .cookie{
+    height: 300px;
+    width: 300px;
+}
+
+.content .imgBox img{
+    max-width: 340px;
+}
+
+.social-media{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social-media li{
+    list-style: none;
+}
+
+.social-media li a{
+    display: inline-block;
+    margin: 5px 0;
+    transform: scale(0.6);
+    filter: invert(1);
+}
+
+.circle{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgb(229, 210, 196);
+    clip-path: circle(700px at right);
+}
